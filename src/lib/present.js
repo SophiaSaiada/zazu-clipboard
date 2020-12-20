@@ -13,7 +13,6 @@ function present (allClips, options = {}) {
         title: clip.raw,
         subtitle: `${ago(new Date(clip.createdAt))}, ${clip.raw.length} characters`,
         value: clip._id,
-        id: clip._id,
         preview: `
           <pre class="text">${htmlEncode(clip.raw)}</pre>
         `,
@@ -47,7 +46,6 @@ function present (allClips, options = {}) {
         icon,
         title: clip.title,
         subtitle: ago(new Date(clip.createdAt)),
-        id: clip._id,
         value: clip._id,
         preview: `
           <img src="${imageSrc}" />

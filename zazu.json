@@ -27,7 +27,7 @@
         "type": "PrefixScript",
         "space": true,
         "args": "Optional",
-        "prefix": "clip",
+        "prefix": "cb",
         "script": "src/search.js",
         "connections": [
           "CopyToClipboard"
