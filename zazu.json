@@ -25,9 +25,9 @@
       {
         "id": "searcher",
         "type": "PrefixScript",
-        "space": true,
+        "space": false,
         "args": "Optional",
-        "prefix": "cb",
+        "prefix": "c",
         "script": "src/search.js",
         "connections": [
           "CopyToClipboard"
